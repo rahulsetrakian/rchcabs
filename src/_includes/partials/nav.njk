@@ -1,0 +1,46 @@
+<header class="site-header" id="site-header">
+  <div class="nav-container">
+    <a href="/" class="nav-logo" aria-label="RCH Cabs Home">
+      <img src="/assets/images/logo.jpg" alt="RCH Cabs" class="nav-logo-img">
+      <span class="nav-logo-text">RCH Cabs</span>
+    </a>
+
+    <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+      <a href="/" class="nav-link {{ 'active' if page.url == '/' }}">Home</a>
+      <a href="/vehicle/" class="nav-link {{ 'active' if page.url == '/vehicle/' }}">Fleet</a>
+      <a href="/price/" class="nav-link {{ 'active' if page.url == '/price/' }}">Pricing</a>
+      <a href="/one-way/" class="nav-link {{ 'active' if page.url == '/one-way/' }}">One Way</a>
+      <div class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+          Cities
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="nav-dropdown-menu">
+          <a href="/blog/car-rental-in-jodhpur/" class="nav-dropdown-item">Jodhpur</a>
+          <a href="/blog/taxi-service-in-jaisalmer/" class="nav-dropdown-item">Jaisalmer</a>
+          <a href="/blog/car-hire-in-udaipur/" class="nav-dropdown-item">Udaipur</a>
+          <a href="/blog/cab-service-in-jaipur/" class="nav-dropdown-item">Jaipur</a>
+        </div>
+      </div>
+      <a href="/blog/" class="nav-link {{ 'active' if page.url == '/blog/' }}">Blog</a>
+      <a href="/contact-us/" class="nav-link {{ 'active' if page.url == '/contact-us/' }}">Contact</a>
+      <a href="tel:{{ site.phone }}" class="nav-menu-cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>Call Now</span>
+      </a>
+    </nav>
+
+    <a href="tel:{{ site.phone }}" class="nav-cta" id="nav-cta">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Call Now</span>
+    </a>
+
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+  </div>
+</header>

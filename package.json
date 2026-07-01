@@ -1,0 +1,24 @@
+{
+  "name": "rchcabs",
+  "version": "1.0.0",
+  "description": "RCH Cab's is a travel agency approved by the department of tourism government of Rajasthan India originating from Jodhpur.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsetrakian/rchcabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulsetrakian/rchcabs/issues"
+  },
+  "homepage": "https://github.com/rahulsetrakian/rchcabs#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}

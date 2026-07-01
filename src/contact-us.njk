@@ -1,0 +1,100 @@
+---
+layout: layouts/base.njk
+title: "Contact Us — RCH Cabs Jodhpur"
+description: "Get in touch with RCH Cabs for bookings, enquiries, and support. Call, email, or visit us at our Jodhpur office. Available 24/7."
+canonical: "https://www.rchcabs.com/contact-us/"
+permalink: /contact-us/
+---
+
+<div class="bg-decorations" aria-hidden="true">
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+</div>
+
+{# ===== PAGE HERO ===== #}
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-content reveal">
+      <span class="section-label">Get In Touch</span>
+      <h1 class="page-hero-title">We'd Love to <span class="italic-light">Hear from You</span></h1>
+      <p class="page-hero-subtitle">Book your ride instantly via phone or email. Our team is available around the clock.</p>
+    </div>
+  </div>
+</section>
+
+{# ===== CONTACT ACTIONS ===== #}
+<section class="section" id="contact-cta">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <span class="section-label">Book Your Ride</span>
+      <h2 class="section-title">Contact Us <span class="italic-light">Directly</span></h2>
+      <p class="section-subtitle">The fastest way to book — call or email and get confirmed in minutes.</p>
+    </div>
+    <div class="cta-actions reveal">
+      <a href="tel:{{ site.phone }}" class="btn-primary">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call Now: {{ site.phoneDisplay }}
+      </a>
+      <a href="mailto:{{ site.email }}" class="btn-outline">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email Us
+      </a>
+    </div>
+  </div>
+</section>
+
+{# ===== CONTACT DETAILS ===== #}
+<div class="section-divider"></div>
+<section class="section" id="details">
+  <div class="container">
+    <div class="contact-grid reveal-cascade">
+
+      <div class="contact-info-card">
+        <div class="contact-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>Our Office</h3>
+        <p><a href="{{ site.googleMapsUrl }}" target="_blank" rel="noopener">{{ site.addressShort }}</a></p>
+      </div>
+
+      <div class="contact-info-card">
+        <div class="contact-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
+        <h3>Phone</h3>
+        <p><a href="tel:{{ site.phone }}">{{ site.phoneDisplay }}</a></p>
+      </div>
+
+      <div class="contact-info-card">
+        <div class="contact-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <h3>Email</h3>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </div>
+
+      <div class="contact-info-card">
+        <div class="contact-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>Working Hours</h3>
+        <p>Available 24/7, 365 days</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{# ===== MAP ===== #}
+<div class="section-divider"></div>
+<section class="section" id="map">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <span class="section-label">Find Us</span>
+      <h2 class="section-title">Visit Our <span class="italic-light">Office</span></h2>
+    </div>
+    <div class="map-wrapper reveal">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.5281181475953!2d73.02975617623817!3d26.276974287120595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c5a619c73bf%3A0x384a0644da29812f!2srch%20cabs%20and%20car%20rantel%20service!5e0!3m2!1sen!2sus!4v1782885391341!5m2!1sen!2sus" width="100%" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+  </div>
+</section>
