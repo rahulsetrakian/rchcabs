@@ -346,12 +346,19 @@ h1, h2, h3, h4 {
 }
 
 .nav-logo-img {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--gold);
-  box-shadow: 0 0 15px rgba(223, 178, 87, 0.3);
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  margin-top: -38px;
+  margin-bottom: -38px;
+  transition: var(--transition-smooth);
+}
+
+.site-header.scrolled .nav-logo-img {
+  width: 80px;
+  height: 80px;
+  margin-top: -26px;
+  margin-bottom: -26px;
 }
 
 .nav-logo-text {
@@ -1395,11 +1402,11 @@ h1, h2, h3, h4 {
 }
 
 .footer-logo-img {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--gold);
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  margin-top: -15px;
+  margin-bottom: -15px;
 }
 
 .footer-logo-text {
@@ -2117,9 +2124,10 @@ h1, h2, h3, h4 {
     padding: 0 20px;
   }
   .nav-logo-img {
-    width: 38px;
-    height: 38px;
-    border-width: 1.5px;
+    width: 75px;
+    height: 75px;
+    margin-top: -22px;
+    margin-bottom: -22px;
   }
   .nav-logo-text {
     font-size: 1.15rem;
